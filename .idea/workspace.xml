@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3836336-bdad-4012-aacb-cdf0be3f8203" name="Changes" comment="" />
+    <list default="true" id="a3836336-bdad-4012-aacb-cdf0be3f8203" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolcanoEvacuation/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolcanoEvacuation/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolcanoEvacuation/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolcanoEvacuation/src/main/java/com/example/volcanoevacuation/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolcanoEvacuation/src/main/java/com/example/volcanoevacuation/game/Agent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolcanoEvacuation/src/main/java/com/example/volcanoevacuation/game/BreadthFirstSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolcanoEvacuation/src/main/java/com/example/volcanoevacuation/game/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolcanoEvacuation/src/main/java/com/example/volcanoevacuation/game/Map.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolcanoEvacuation/src/main/java/com/example/volcanoevacuation/game/Position.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolcanoEvacuation/src/main/java/com/example/volcanoevacuation/game/Tile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolcanoEvacuation/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolcanoEvacuation/target/classes/com/example/volcanoevacuation/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolcanoEvacuation/target/classes/com/example/volcanoevacuation/game/Agent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolcanoEvacuation/target/classes/com/example/volcanoevacuation/game/BreadthFirstSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolcanoEvacuation/target/classes/com/example/volcanoevacuation/game/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolcanoEvacuation/target/classes/com/example/volcanoevacuation/game/Map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolcanoEvacuation/target/classes/com/example/volcanoevacuation/game/Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolcanoEvacuation/target/classes/com/example/volcanoevacuation/game/Tile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolcanoEvacuation/target/classes/module-info.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,10 +64,12 @@
   "keyToString": {
     "Application.BFSTest.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.com.example.volcanoevacuation.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -58,9 +82,24 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="zulu-23-fx" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.example.volcanoevacuation.game.Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.volcanoevacuation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.example.volcanoevacuation.Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-24" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.example.volcanoevacuation.Main" />
-      <module name="VolcanoEvacuation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.volcanoevacuation.*" />
@@ -102,7 +141,7 @@
       <workItem from="1763122079335" duration="862000" />
       <workItem from="1763297374651" duration="7000" />
       <workItem from="1765562005940" duration="12708000" />
-      <workItem from="1765623432868" duration="6623000" />
+      <workItem from="1765623432868" duration="8179000" />
     </task>
     <servers />
   </component>
