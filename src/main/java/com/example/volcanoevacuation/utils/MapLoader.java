@@ -1,4 +1,7 @@
-package com.example.volcanoevacuation.game;
+package com.example.volcanoevacuation.utils;
+
+import com.example.volcanoevacuation.game.Map;
+import com.example.volcanoevacuation.game.Tile;
 
 public abstract class MapLoader {
     public final Map load() {

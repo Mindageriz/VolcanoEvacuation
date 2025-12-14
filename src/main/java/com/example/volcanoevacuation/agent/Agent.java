@@ -1,4 +1,7 @@
-package com.example.volcanoevacuation.game;
+package com.example.volcanoevacuation.agent;
+
+import com.example.volcanoevacuation.strategies.MovementStrategy;
+import com.example.volcanoevacuation.game.Position;
 
 public final class Agent {
     private Position position;

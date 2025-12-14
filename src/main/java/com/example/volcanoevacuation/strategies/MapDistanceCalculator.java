@@ -1,4 +1,7 @@
-package com.example.volcanoevacuation.game;
+package com.example.volcanoevacuation.strategies;
+
+import com.example.volcanoevacuation.game.Map;
+import com.example.volcanoevacuation.game.Position;
 
 import java.util.ArrayDeque;
 import java.util.List;

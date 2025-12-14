@@ -1,5 +1,14 @@
 package com.example.volcanoevacuation.game;
 
+import com.example.volcanoevacuation.agent.Agent;
+import com.example.volcanoevacuation.resources.DefaultMapLoader;
+import com.example.volcanoevacuation.services.AgentMovementService;
+import com.example.volcanoevacuation.agent.AgentSpawner;
+import com.example.volcanoevacuation.agent.AgentStatistics;
+import com.example.volcanoevacuation.services.BarricadeService;
+import com.example.volcanoevacuation.services.LavaSpreadService;
+import com.example.volcanoevacuation.utils.Renderer;
+
 import java.util.ArrayList;
 import java.util.List;
 

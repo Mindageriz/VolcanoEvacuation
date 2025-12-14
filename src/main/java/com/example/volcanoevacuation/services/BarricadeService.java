@@ -1,4 +1,8 @@
-package com.example.volcanoevacuation.game;
+package com.example.volcanoevacuation.services;
+
+import com.example.volcanoevacuation.game.Map;
+import com.example.volcanoevacuation.game.Position;
+import com.example.volcanoevacuation.game.Tile;
 
 public final class BarricadeService {
 

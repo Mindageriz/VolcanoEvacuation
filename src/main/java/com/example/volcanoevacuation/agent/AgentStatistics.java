@@ -1,4 +1,4 @@
-package com.example.volcanoevacuation.game;
+package com.example.volcanoevacuation.agent;
 
 import java.util.List;
 

@@ -1,4 +1,6 @@
-package com.example.volcanoevacuation.game;
+package com.example.volcanoevacuation.resources;
+
+import com.example.volcanoevacuation.utils.MapLoader;
 
 public final class DefaultMapLoader extends MapLoader {
 
