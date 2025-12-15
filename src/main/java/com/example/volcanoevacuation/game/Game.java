@@ -14,6 +14,8 @@ import java.util.List;
 
 public class Game {
     private static final int LAVA_SPREAD_TICK_PERIOD = 3;
+    private static final int BARRICADE_BREAKS = 1;
+    private static final int BARRICADE_PLACES = 1;
 
     private Map map;
     private final List<Agent> agents = new ArrayList<>();
@@ -27,8 +29,8 @@ public class Game {
     private final Renderer renderer = new Renderer();
 
 
-    private final BarricadeService.Counter toBreak = new BarricadeService.Counter(1);
-    private final BarricadeService.Counter toPlace = new BarricadeService.Counter(1);
+    private final BarricadeService.Counter toBreak = new BarricadeService.Counter(BARRICADE_BREAKS);
+    private final BarricadeService.Counter toPlace = new BarricadeService.Counter(BARRICADE_PLACES);
 
     public void initGame() {
         map = new DefaultMapLoader().load();

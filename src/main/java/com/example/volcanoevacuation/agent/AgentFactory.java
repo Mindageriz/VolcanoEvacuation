@@ -21,6 +21,7 @@ public final class AgentFactory {
         int roll = random.nextInt(100);
 
         if (roll < CAUTIOUS_PERCENT) {
+
             return new CautiousStrategy();
         }
         return new ShortestPathStrategy();

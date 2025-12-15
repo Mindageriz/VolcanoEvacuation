@@ -15,36 +15,28 @@ public class Main {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
             printWelcome(scanner);
-
             Game game = new Game();
             game.initGame();
             game.spawnAgents();
-
             int totalAgents = game.agentsInGame();
-
+            label:
             while (true) {
                 game.renderGame();
                 printMenu();
-
                 String input = scanner.nextLine().trim().toLowerCase();
-
-                if (CMD_QUIT.equals(input)) {
-                    System.out.println("Exiting...");
-                    break;
-                }
-
-                if (CMD_BREAK.equals(input)) {
-                    handleBreak(scanner, game);
-                    continue;
-                }
-
-                if (CMD_PLACE.equals(input)) {
-                    handlePlace(scanner, game);
-                    continue;
+                switch (input) {
+                    case CMD_QUIT:
+                        System.out.println("Exiting...");
+                        break label;
+                    case CMD_BREAK:
+                        handleBreak(scanner, game);
+                        continue;
+                    case CMD_PLACE:
+                        handlePlace(scanner, game);
+                        continue;
                 }
 
                 game.tick();
-
                 if (game.isGameOver()) {
                     printGameOver(game, totalAgents);
                     break;
